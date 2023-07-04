@@ -9,3 +9,5 @@ let saveValue = function () {
     const newLi = document.createElement("li")
     listSavedItems.appendChild(newLi)
 }
+
+sendButton.addEventListener("click", saveValue)
